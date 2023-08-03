@@ -7,8 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 include_directories(include)
 
-set(level 31)
-#add_subdirectory(Problem${level})
 add_subdirectory(Template)
 
 add_executable(Solution
